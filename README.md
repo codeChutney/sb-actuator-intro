@@ -11,6 +11,16 @@ Also called Production ready features - these are features added to help monitor
 ### Default behaviors
 
 URL: host:port/{context-root}/actuator
-By default health, info are the endpoints enabled foe Web. There are multiple other endpoints enabled by default for JMX.
+
+By default health, info are the endpoints enabled for Web. There are multiple other endpoints enabled by default for JMX.
 
 ### How tos
+
+Enable all endpoints for web
+
+
+
+
+### Links
+
+Documentation: https://docs.spring.io/spring-boot/docs/2.2.0.BUILD-SNAPSHOT/reference/html/production-ready-features.html#production-ready
