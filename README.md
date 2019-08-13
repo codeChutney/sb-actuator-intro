@@ -18,8 +18,16 @@ By default health, info are the endpoints enabled for Web. There are multiple ot
 
 Enable all endpoints for web
 
+```yml
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include: "*"
+```
 
-
+See application.yml for more details.
 
 ### Links
 
