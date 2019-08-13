@@ -14,6 +14,7 @@ URL: host:port/{context-root}/actuator
 
 By default health, info are the endpoints enabled for Web. There are multiple other endpoints enabled by default for JMX.
 
+---
 ### How tos
 
 Enable all endpoints for web
@@ -31,6 +32,7 @@ This code snippet also swaps /manage for /actuator.
 
 See application.yml for more details on how to add Info that shows up when using the /info endpoint.
 
+---
 ### Good practices
 
 It is recommended to secure endpoints that expose sensitive info, using spring-security for example.
@@ -47,6 +49,7 @@ Related: https://zavyn.blogspot.com/2017/05/kubernetes-readiness-and-liveness-wi
 
 https://docs.spring.io/spring-boot/docs/2.2.0.BUILD-SNAPSHOT/reference/html/production-ready-features.html#production-ready-loggers
 
+---
 ### Links
 
 Documentation: https://docs.spring.io/spring-boot/docs/2.2.0.BUILD-SNAPSHOT/reference/html/production-ready-features.html#production-ready
