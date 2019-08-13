@@ -37,8 +37,15 @@ It is recommended to secure endpoints that expose sensitive info, using spring-s
 
 ### Other tips and tricks
 
-Add new/custom endpoints:
-Change log levels:
+#### Add new/custom endpoints
+
+https://docs.spring.io/spring-boot/docs/2.2.0.BUILD-SNAPSHOT/reference/html/production-ready-features.html#production-ready-endpoints-custom
+
+Related: https://zavyn.blogspot.com/2017/05/kubernetes-readiness-and-liveness-with.html
+
+#### Change log levels
+
+https://docs.spring.io/spring-boot/docs/2.2.0.BUILD-SNAPSHOT/reference/html/production-ready-features.html#production-ready-loggers
 
 ### Links
 
