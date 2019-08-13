@@ -31,8 +31,13 @@ This code snippet also swaps /manage for /actuator.
 
 See application.yml for more details on how to add Info that shows up when using the /info endpoint.
 
+### Good practices
+
+It is recommended to secure endpoints that expose sensitive info, using spring-security for example.
+
 ### Other tips and tricks
 
+Add new/custom endpoints:
 Change log levels:
 
 ### Links
