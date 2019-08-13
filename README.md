@@ -27,7 +27,13 @@ management:
         include: "*"
 ```
 
-See application.yml for more details.
+This code snippet also swaps /manage for /actuator.
+
+See application.yml for more details on how to add Info that shows up when using the /info endpoint.
+
+### Other tips and tricks
+
+Change log levels:
 
 ### Links
 
