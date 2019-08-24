@@ -1,0 +1,33 @@
+logging:
+  level:
+    root: debug
+    
+server:
+  servlet:
+    context-path: /reference-simple
+    
+info:
+  app:
+    name: Actuator reference app
+    description: Production ready features of the spring-boot-actuator
+    version: 0.0.1-SNAPSHOT
+    
+
+# base-path siwtches /actuator to /manage
+# include: "*" enables all the endpoints that are enabled by default for JMX to Web
+# By default only health and info are enabled for Web
+# It is a good practice to secure some endpioints that might expose sensitive information
+# Use spring-security(WebSecurityConfigurerAdapter) to secure chosen endpoints  
+# Spring also auto-configures some HealthIndicator end-pounts when appropriate 
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include: "*"
+
+
+
+
+
+    
