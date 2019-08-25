@@ -1,4 +1,4 @@
-package com.reference.sbactuatorintro;
+package com.reference.sbactuator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

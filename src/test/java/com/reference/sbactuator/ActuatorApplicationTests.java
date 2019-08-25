@@ -1,4 +1,4 @@
-package com.reference.sbactuatorintro;
+package com.reference.sbactuator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
