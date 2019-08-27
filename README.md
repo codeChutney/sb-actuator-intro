@@ -1,4 +1,4 @@
-# sb-actuator-intro
+# Spring boot actuator learning and quick reference
 
 Learning some Actuator basics.
 
