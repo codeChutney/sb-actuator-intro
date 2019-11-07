@@ -1,6 +1,4 @@
-# Spring boot actuator learning and quick reference
-
-Learning some Actuator basics.
+# Spring boot actuator quick reference
 
 # High-level details
 
