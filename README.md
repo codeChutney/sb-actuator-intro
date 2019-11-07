@@ -1,4 +1,4 @@
-# Spring boot actuator quick reference
+# SPRING BOOT ACTUATOR REFERENCE
 
 # High-level details
 
